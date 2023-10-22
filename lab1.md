@@ -1,5 +1,9 @@
 
 # Lab report 1
+1. <a href="https://alexavndra.github.io/cse15l-lab-reports/lab1#cd-command" style="color:#023e8a;"><code>cd</code> command</a>
+2. <a href="https://alexavndra.github.io/cse15l-lab-reports/lab1#ls-command" style="color:#023e8a;"><code>ls</code> command</a>
+3. <a href="https://alexavndra.github.io/cse15l-lab-reports/lab1#cat-command" style="color:#023e8a;"><code>cat</code> command</a>
+
 ## `cd` command
 ``` java
 [user@sahara ~]$ cd // no args

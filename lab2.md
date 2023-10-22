@@ -1,4 +1,8 @@
-# Lab Report 2
+# Lab report 2
+1. <a href="https://alexavndra.github.io/cse15l-lab-reports/lab2#part-1" style="color:#023e8a;">Part 1</a>
+2. <a href="https://alexavndra.github.io/cse15l-lab-reports/lab2#part-2" style="color:#023e8a;">Part 2</a>
+3. <a href="https://alexavndra.github.io/cse15l-lab-reports/lab2#part-3" style="color:#023e8a;">Part 3</a>
+
 ## Part 1
 This is my code for `StringServer.java`. ![Code for `StringServer.java`](lab2-assets/string-server-entire-code.png)
 In this screenshot, the code method used are `handleRequest`, which takes a parameter called `URI url`, which is what handles the query requests put into the URL. From there, it determines whether the given query is in the command list provided (either `/` or `/add-message`). If it just the `/`, then it will return the current query list; if the given command is `add-message`, it will examine the query provided after (e.g. the query is "Hello"), and then add it to the query list. After adding it to the query list, it will display the updated list on the screen. If incorrect values (e.g. an unknown query command, a new URI outside of the `localhost`), are provided, it will print a "404" error to the user.
