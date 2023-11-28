@@ -23,9 +23,9 @@
 **Keys pressed**: `vim L` <tab\> `.` <tab\><enter\> to get into the `vim` editor. Then <cmd + v\><n\><n\><n\><n\><n\><n\><n\><n\><n\><y\> to change the confirmed line by searching all lines and asking permission to change it to `index2`. The command `:%s/\<index1\>/index2/gc` was already on the clipboard prior to. `:wq` <enter\> to save and quit.
 
 ## Step 8
-![Picture of recomplining and rerunning `ListExamplex.java`](lab4-assets/step-7.png)
+![Picture of recomplining and rerunning `ListExamplex.java`](lab4-assets/step-8.png)
 **Keys pressed**: <up\><up\><up\><up\><up\><up\><up\><enter\>, <up\><up\><up\><enter\>; the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was up 7 in my bash history (had to recompile after the change), and the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was up 3 as well. 
 
 ## Step 9
-![Picture of committing and pushing the updated `ListExamplex.java`](lab4-assets/step-7.png)
+![Picture of committing and pushing the updated `ListExamplex.java`](lab4-assets/step-9.png)
 **Keys pressed**: `git a` <tab\><tab\> `d` <tab\> `Li` <tab\><enter\>, `git com` <tab\> `-m "Updated"` <enter\>, <cmd + v\> `alexavndrarh@gmail.com` <enter\>, `git pu` <tab\> `s` <tab\><enter\>, `alexavndra`, <cmd + v\><enter\>; the `git add` I used <tab\> to get the command, as well as the `ListExamples` file. I then used <tab\> to get the `git commit` command, and then put the message. I also changed the email to commit from by pasting the command `git config --global user.email` and editing the email given, and then lastly typed my user and pasted my token to fully commit to the remote repository.
